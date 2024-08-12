@@ -35,25 +35,10 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         backgroundColor: Colors.white,
         actions: <Widget>[
-          // Padding(
-          //   padding: const EdgeInsets.only(right: 20, top: 20),
-          //   child: Text(
-          //       'Skip', 
-          //       style: TextStyle(
-          //       color: ColorSys.gray,
-          //       fontSize: 18,
-          //       fontWeight: FontWeight.w400
-          //     ),
-          //   ),
-          // )
           Padding(
             padding: const EdgeInsets.only(right: 20,),
             child: TextButton(
-              onPressed: (){
-                setState(() {
-                  currentIndex=3;
-                });
-              },
+              onPressed: (){},
               child: Text(
                 'Skip', 
                 style: TextStyle(
